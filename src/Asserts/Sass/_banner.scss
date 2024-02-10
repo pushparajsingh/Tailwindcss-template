@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px) {
+  .banner {
+    display: block;
+    div {
+      width: 100%;
+    }
+  }
+  .banner div:nth-child(1) {
+    margin-top: 4rem;
+    div {
+      padding: 2rem;
+      margin: 0rem;
+      h1 br {
+        display: none;
+      }
+      h1{
+        font-size: 3rem;
+      }
+      p br{
+       display: none; 
+      }
+      div{
+        margin-top: 2rem;
+      }
+    }
+  }
+}

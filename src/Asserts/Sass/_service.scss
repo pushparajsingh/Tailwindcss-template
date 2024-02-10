@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+  .service div:first-child {
+    display: block;
+  }
+  .service div:last-child {
+    display: block;
+  }
+  .service {
+    padding-top: 4rem !important;
+    .allServices {
+      display: flex !important;
+      justify-content: center;
+      margin-right: 0rem;
+    }
+    div:last-child {
+      > div {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+}

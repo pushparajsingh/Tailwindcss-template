@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+  .about div {
+    display: block;
+    &:first-child {
+      width: 100%;
+    }
+    &:last-child {
+      width: 100%;
+      padding: 1rem;
+    }
+  }
+  .catigoryProgress div:last-child {
+    padding: 0rem;
+  }
+  .about div > div:last-child {
+    margin-top: 40px;
+  }
+}

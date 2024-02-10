@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+  .latest-portFolio {
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  .latest-portFolio > div:first-child {
+    display: block;
+    margin-top: 5rem;
+    div {
+      padding-left: 0rem;
+    }
+  }
+  .project-completeNo {
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    p {
+      white-space: nowrap;
+      margin-top: 0.5rem;
+      margin-left: 1rem;
+    }
+    h1 {
+      padding-right: 0rem;
+      font-size: 2rem;
+      img {
+        width: 2.9rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+  .latest-portFolio div:nth-child(2) {
+    padding: 0rem;
+    ul{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 4rem;
+      margin-top: 2rem;
+      li{
+        font-size: 2rem;
+      }
+    }
+  }
+  .latest-portFolio div:nth-child(3){
+    padding: 0;
+  }
+}
